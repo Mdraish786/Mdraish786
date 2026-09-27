@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-labelledby="title desc">
+<title id="title">Postmark — Multi-User URL Shortener</title><desc id="desc">Animated developer profile artwork. Decorative motion; project links appear below the image.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101D31"/><stop offset="1" stop-color="#080E1C"/></linearGradient>
+ <linearGradient id="accent"><stop stop-color="#38BDF8"/><stop offset=".55" stop-color="#2DD4BF"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#12506B" stop-opacity=".4"/><stop offset="1" stop-color="#12506B" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#94A3B8" stroke-opacity=".045"/></pattern>
+ <clipPath id="frame"><rect x="1" y="1" width="958" height="238" rx="22"/></clipPath>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}
+.runner{stroke-dasharray:95 1900;animation:run 12s linear infinite}
+.float{animation:float 6s ease-in-out infinite}
+.pulse{animation:pulse 4s ease-in-out infinite}
+.packet{stroke-dasharray:16 145;animation:packet 3s linear infinite}
+@keyframes run{to{stroke-dashoffset:-1995}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+@keyframes packet{to{stroke-dashoffset:-161}}
+.bar{transform-box:fill-box;transform-origin:center bottom;animation:bar 4s ease-in-out infinite}.b0{animation-delay:-0.00s}.b1{animation-delay:-0.22s}.b2{animation-delay:-0.44s}.b3{animation-delay:-0.66s}.b4{animation-delay:-0.88s}.b5{animation-delay:-1.10s}.b6{animation-delay:-1.32s}.b7{animation-delay:-1.54s}.b8{animation-delay:-1.76s}.b9{animation-delay:-1.98s}.b10{animation-delay:-2.20s}.b11{animation-delay:-2.42s}@keyframes bar{0%,100%{transform:scaleY(.45);opacity:.5}50%{transform:scaleY(1);opacity:1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#frame)">
+<rect width="960" height="240" fill="url(#bg)"/><rect width="960" height="240" fill="url(#grid)"/>
+<circle cx="830" cy="100" r="270" fill="url(#halo)"/>
+<text x="36" y="37" font-size="12" fill="#2DD4BF" font-weight="400" letter-spacing="2">02 / LINKS, DASHBOARDS &amp; ANALYTICS</text><text x="34" y="92" font-size="44" fill="#F1F5F9" font-weight="700" letter-spacing="-1">Postmark</text><text x="36" y="129" font-size="21" fill="#A9B9CF" font-weight="400" >Short links. A clearer view of every click.</text><text x="36" y="165" font-size="15" fill="#859EBB" font-weight="400" >FastAPI · SQLAlchemy · JWT · JavaScript</text><rect x="36" y="189" width="162" height="28" rx="7" fill="#0E2D2C" stroke="#24564F" /><text x="117" y="208" font-size="10" fill="#5EEAD4" font-weight="600" text-anchor="middle" letter-spacing=".7">DEPLOYED ON RENDER</text><text x="216" y="208" font-size="11" fill="#8BA4C0" font-weight="400" letter-spacing="1">PERSONAL LINK ANALYTICS</text><rect x="564" y="43" width="359" height="162" rx="14" fill="#0A1526" stroke="#243D55" /><text x="584" y="69" font-size="10" fill="#6D89A7" font-weight="400" letter-spacing="1.8">LINK ACTIVITY</text><rect x="584" y="82" width="135" height="31" rx="6" fill="#11243A" stroke="#2E4C65" /><text x="596" y="102" font-size="12" fill="#A6BEDA" font-weight="400" >your.link / ...</text><path class="packet" d="M726 98H772" stroke="#2DD4BF" stroke-width="2"/><rect x="781" y="82" width="122" height="31" rx="6" fill="#103331" stroke="#27675A" /><text x="842" y="102" font-size="10" fill="#5EEAD4" font-weight="600" text-anchor="middle" letter-spacing="1">SHORT LINK</text><rect class="bar b0" x="586" y="170" width="14" height="18" rx="3" fill="#38BDF8" opacity=".8"/><rect class="bar b1" x="612" y="159" width="14" height="29" rx="3" fill="#2DD4BF" opacity=".8"/><rect class="bar b2" x="638" y="166" width="14" height="22" rx="3" fill="#A78BFA" opacity=".8"/><rect class="bar b3" x="664" y="148" width="14" height="40" rx="3" fill="#38BDF8" opacity=".8"/><rect class="bar b4" x="690" y="156" width="14" height="32" rx="3" fill="#2DD4BF" opacity=".8"/><rect class="bar b5" x="716" y="138" width="14" height="50" rx="3" fill="#A78BFA" opacity=".8"/><rect class="bar b6" x="742" y="149" width="14" height="39" rx="3" fill="#38BDF8" opacity=".8"/><rect class="bar b7" x="768" y="133" width="14" height="55" rx="3" fill="#2DD4BF" opacity=".8"/><rect class="bar b8" x="794" y="141" width="14" height="47" rx="3" fill="#A78BFA" opacity=".8"/><rect class="bar b9" x="820" y="126" width="14" height="62" rx="3" fill="#38BDF8" opacity=".8"/><rect class="bar b10" x="846" y="135" width="14" height="53" rx="3" fill="#2DD4BF" opacity=".8"/><rect class="bar b11" x="872" y="119" width="14" height="69" rx="3" fill="#A78BFA" opacity=".8"/><path d="M583 190H904" stroke="#294157"/>
+</g>
+<rect x="1" y="1" width="958" height="238" rx="22" fill="none" stroke="#26394F"/>
+<rect class="runner" x="2" y="2" width="956" height="236" rx="21" fill="none" stroke="url(#accent)" stroke-width="2"/>
+</svg>

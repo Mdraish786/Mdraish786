@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="116" viewBox="0 0 960 116" role="img" aria-labelledby="title desc">
+<title id="title">Have an idea worth building? Let&#x27;s connect.</title><desc id="desc">Animated developer profile artwork. Decorative motion; project links appear below the image.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101D31"/><stop offset="1" stop-color="#080E1C"/></linearGradient>
+ <linearGradient id="accent"><stop stop-color="#38BDF8"/><stop offset=".55" stop-color="#2DD4BF"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#12506B" stop-opacity=".4"/><stop offset="1" stop-color="#12506B" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#94A3B8" stroke-opacity=".045"/></pattern>
+ <clipPath id="frame"><rect x="1" y="1" width="958" height="114" rx="22"/></clipPath>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}
+.runner{stroke-dasharray:95 1900;animation:run 12s linear infinite}
+.float{animation:float 6s ease-in-out infinite}
+.pulse{animation:pulse 4s ease-in-out infinite}
+.packet{stroke-dasharray:16 145;animation:packet 3s linear infinite}
+@keyframes run{to{stroke-dashoffset:-1995}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+@keyframes packet{to{stroke-dashoffset:-161}}
+
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#frame)">
+<rect width="960" height="116" fill="url(#bg)"/><rect width="960" height="116" fill="url(#grid)"/>
+<circle cx="830" cy="100" r="270" fill="url(#halo)"/>
+<text x="36" y="51" font-size="26" fill="#E2E8F0" font-weight="700" >Have an idea worth building?</text><text x="36" y="82" font-size="17" fill="#8DA8C4" font-weight="400" >Let&#x27;s connect and make it happen.</text><path d="M610 67C650 7 694 113 734 55S816 117 860 53S912 65 936 28" fill="none" stroke="#244B60" stroke-width="2"/><path class="packet" d="M610 67C650 7 694 113 734 55S816 117 860 53S912 65 936 28" fill="none" stroke="url(#accent)" stroke-width="3"/>
+</g>
+<rect x="1" y="1" width="958" height="114" rx="22" fill="none" stroke="#26394F"/>
+<rect class="runner" x="2" y="2" width="956" height="112" rx="21" fill="none" stroke="url(#accent)" stroke-width="2"/>
+</svg>

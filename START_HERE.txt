@@ -1,0 +1,27 @@
+MD RAISH — ANIMATED GITHUB PROFILE
+
+1. Extract this ZIP.
+2. Open preview.html in Chrome or Edge to see the SVG animations.
+3. Open your Mdraish786/Mdraish786 repository on GitHub.
+4. Choose Add file > Upload files.
+5. Upload these FIVE files together to the root of the main branch:
+   README.md
+   header.svg
+   flowops.svg
+   postmark.svg
+   footer.svg
+6. Commit changes. GitHub will replace the matching existing files.
+
+The old project SVG files can remain; the new README does not reference them.
+Keep the filenames exactly as supplied. Uploading README.md alone will leave
+the new project card images missing. The preview HTML and GIF are for local
+viewing; they are not required in the repository.
+
+FlowOps is first, Postmark second. Both have repository links and Render
+live demo links. Existing personal, education and experience text is retained.
+SVG animation is self-contained: no JavaScript, external fonts, API tokens,
+scheduled workflow or animation service. Images remain readable when motion
+is disabled. Project artwork is illustrative, not real-time analytics.
+
+Direct GitHub publishing was not completed: the connector denied write access
+and Google sign-in in the cloud browser returned a connection error.

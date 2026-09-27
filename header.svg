@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="380" viewBox="0 0 960 380" role="img" aria-labelledby="title desc">
+<title id="title">Md Raish — Full Stack Developer</title><desc id="desc">Animated developer profile artwork. Decorative motion; project links appear below the image.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101D31"/><stop offset="1" stop-color="#080E1C"/></linearGradient>
+ <linearGradient id="accent"><stop stop-color="#38BDF8"/><stop offset=".55" stop-color="#2DD4BF"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#12506B" stop-opacity=".4"/><stop offset="1" stop-color="#12506B" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#94A3B8" stroke-opacity=".045"/></pattern>
+ <clipPath id="frame"><rect x="1" y="1" width="958" height="378" rx="22"/></clipPath>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}
+.runner{stroke-dasharray:95 1900;animation:run 12s linear infinite}
+.float{animation:float 6s ease-in-out infinite}
+.pulse{animation:pulse 4s ease-in-out infinite}
+.packet{stroke-dasharray:16 145;animation:packet 3s linear infinite}
+@keyframes run{to{stroke-dashoffset:-1995}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+@keyframes packet{to{stroke-dashoffset:-161}}
+.code-line{animation:type 6s ease-in-out infinite}@keyframes type{0%,100%{width:35px}50%{width:240px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#frame)">
+<rect width="960" height="380" fill="url(#bg)"/><rect width="960" height="380" fill="url(#grid)"/>
+<circle cx="830" cy="100" r="270" fill="url(#halo)"/>
+<text x="44" y="43" font-size="12" fill="#8AA2BF" font-weight="400" letter-spacing="2.5">MDRAISH786 / BUILDING WITH PURPOSE</text><circle class="pulse" cx="49" cy="88" r="4" fill="#2DD4BF"/><text x="62" y="93" font-size="12" fill="#2DD4BF" font-weight="400" letter-spacing="1">OPEN TO INTERNSHIPS &amp; GRADUATE ROLES</text><text x="41" y="164" font-size="65" fill="#F1F5F9" font-weight="700" letter-spacing="-2">Md Raish.</text><text x="44" y="207" font-size="28" fill="#DAE5F4" font-weight="400" >Full Stack Developer</text><text x="44" y="250" font-size="19" fill="#A9B9CF" font-weight="400" >Thoughtful interfaces. Reliable APIs.</text><text x="44" y="280" font-size="17" fill="#A9B9CF" font-weight="400" >Useful software, from idea to deployment.</text><rect x="44" y="314" width="82" height="30" rx="7" fill="#102137" stroke="#284058" /><text x="85.0" y="334" font-size="11" fill="#B7D4E9" font-weight="600" text-anchor="middle" letter-spacing="1">REACT</text><rect x="136" y="314" width="100" height="30" rx="7" fill="#102137" stroke="#284058" /><text x="186.0" y="334" font-size="11" fill="#B7D4E9" font-weight="600" text-anchor="middle" letter-spacing="1">FASTAPI</text><rect x="246" y="314" width="109" height="30" rx="7" fill="#102137" stroke="#284058" /><text x="300.5" y="334" font-size="11" fill="#B7D4E9" font-weight="600" text-anchor="middle" letter-spacing="1">PYTHON</text><rect x="365" y="314" width="124" height="30" rx="7" fill="#102137" stroke="#284058" /><text x="427.0" y="334" font-size="11" fill="#B7D4E9" font-weight="600" text-anchor="middle" letter-spacing="1">POSTGRESQL</text><g class="float" transform="translate(0 0)"><rect x="550" y="63" width="363" height="244" rx="14" fill="#0A1424" stroke="#2A435E" /><path d="M550 99H913" stroke="#25374D"/><circle cx="570" cy="81" r="4" fill="#F88D97"/><circle cx="586" cy="81" r="4" fill="#EFC66B"/><circle cx="602" cy="81" r="4" fill="#45D6B7"/><text x="636" y="85" font-size="12" fill="#7690AE" font-weight="400" font-family="monospace">build / useful-software</text><text x="571" y="130" font-size="11" fill="#718CA9" font-weight="400" letter-spacing="2">FROM INTERFACE TO API</text><rect x="572" y="154" width="90" height="53" rx="10" fill="#102238" stroke="#2D485F" /><text x="617" y="187" font-size="16" fill="#38BDF8" font-weight="700" text-anchor="middle">UI</text><rect x="687" y="154" width="90" height="53" rx="10" fill="#102238" stroke="#2D485F" /><text x="732" y="187" font-size="16" fill="#2DD4BF" font-weight="700" text-anchor="middle">API</text><rect x="802" y="154" width="90" height="53" rx="10" fill="#102238" stroke="#2D485F" /><text x="847" y="187" font-size="16" fill="#A78BFA" font-weight="700" text-anchor="middle">DATA</text><path d="M662 180H687" stroke="#314A63" stroke-width="2"/><path class="packet" d="M662 180H687" stroke="#2DD4BF" stroke-width="3"/><path d="M777 180H802" stroke="#314A63" stroke-width="2"/><path class="packet" d="M777 180H802" stroke="#2DD4BF" stroke-width="3"/><text x="572" y="237" font-size="15" fill="#7DD3FC" font-weight="400" font-family="monospace">&gt; build. test. improve.</text><rect class="code-line" x="572" y="253" width="240" height="4" rx="2" fill="url(#accent)"/><text x="572" y="285" font-size="12" fill="#7C94AE" font-weight="400" >Ideas into working products</text></g><circle class="pulse" cx="906" cy="333" r="3" fill="#A78BFA"/><text x="891" y="337" font-size="11" fill="#8DA4BF" font-weight="400" text-anchor="end" letter-spacing="1.5">LEARN · BUILD · IMPROVE</text>
+</g>
+<rect x="1" y="1" width="958" height="378" rx="22" fill="none" stroke="#26394F"/>
+<rect class="runner" x="2" y="2" width="956" height="376" rx="21" fill="none" stroke="url(#accent)" stroke-width="2"/>
+</svg>
